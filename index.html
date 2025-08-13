@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>AR Porte de Ouidah</title>
+  
   <!-- A-Frame -->
   <script src="https://cdn.jsdelivr.net/npm/aframe@1.3.0/dist/aframe.min.js"></script>
+  
   <!-- MindAR.js -->
   <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.0/dist/mindar-image.prod.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mind-ar@1.2.0/dist/mindar-image.prod.css" />
 </head>
 <body>
-  <a-scene mindar-image="imageTargetSrc: target.mind" embedded color-space="sRGB" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+<a-scene mindar-image="imageTargetSrc: targets.mind" embedded color-space="sRGB" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
     
     <!-- Charger le modèle 3D -->
     <a-assets>
